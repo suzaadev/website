@@ -30,9 +30,30 @@ export default function Integrations() {
             <h3 className="text-xl font-semibold text-foreground mb-2">
               WooCommerce
             </h3>
-            <p className="text-slate-600 leading-relaxed">
+            <p className="text-slate-600 leading-relaxed mb-4">
               Seamless checkout integration for WooCommerce stores. Accept cryptocurrency payments directly at checkout.
             </p>
+            <a
+              href="https://github.com/suzaadev/plugin-WooCommerce/releases/tag/v1.0.0"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center text-sm text-primary hover:text-[#0970e6] transition-colors font-medium"
+            >
+              <svg
+                className="w-4 h-4 mr-1.5"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth={2}
+                  d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"
+                />
+              </svg>
+              Download Plugin
+            </a>
           </div>
           <div className="p-6 rounded-xl border border-slate-200 bg-white hover:shadow-md hover:border-slate-300 transition-all">
             <div className="w-10 h-10 rounded-lg bg-primary/5 flex items-center justify-center text-primary mb-4">
