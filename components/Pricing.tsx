@@ -1,4 +1,12 @@
+'use client';
+
 export default function Pricing() {
+  const scrollToContact = () => {
+    const element = document.getElementById('contact');
+    if (element) {
+      element.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
   const plans = [
     {
       name: 'Basic',
@@ -65,7 +73,7 @@ export default function Pricing() {
                 {plan.name}
               </h3>
               <div className="mb-6">
-                <span className="text-4xl font-bold text-foreground tabular-nums">
+                <span className="text-3xl font-bold text-foreground tabular-nums">
                   {plan.price}
                 </span>
                 {plan.period && (
@@ -94,15 +102,33 @@ export default function Pricing() {
                   </li>
                 ))}
               </ul>
-              <button
-                className={`w-full py-3 px-6 rounded-lg font-semibold shadow-sm transition-colors ${
-                  plan.highlight
-                    ? 'bg-primary text-white hover:bg-[#0970e6]'
-                    : 'bg-foreground text-white hover:opacity-95'
-                }`}
-              >
-                {plan.cta}
-              </button>
+              {plan.cta === 'Get Started' ? (
+                <a
+                  href="https://app.suzaa.com"
+                  className={`w-full py-3 px-6 rounded-lg font-semibold shadow-sm transition-colors text-center block ${
+                    plan.highlight
+                      ? 'bg-primary text-white hover:bg-[#0970e6]'
+                      : 'bg-foreground text-white hover:opacity-95'
+                  }`}
+                >
+                  {plan.cta}
+                </a>
+              ) : (
+                <a
+                  href="#contact"
+                  onClick={(e) => {
+                    e.preventDefault();
+                    scrollToContact();
+                  }}
+                  className={`w-full py-3 px-6 rounded-lg font-semibold shadow-sm transition-colors text-center block ${
+                    plan.highlight
+                      ? 'bg-primary text-white hover:bg-[#0970e6]'
+                      : 'bg-foreground text-white hover:opacity-95'
+                  }`}
+                >
+                  {plan.cta}
+                </a>
+              )}
             </div>
           ))}
         </div>

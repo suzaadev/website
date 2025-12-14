@@ -84,8 +84,6 @@ export default function Footer() {
               <li>
                 <a
                   href="https://docs.suzaa.com"
-                  target="_blank"
-                  rel="noopener noreferrer"
                   className="text-white/80 hover:text-white transition-colors"
                 >
                   Docs

@@ -2,7 +2,7 @@ export default function Integrations() {
   return (
     <section className="bg-white py-20">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="text-center mb-12">
+        <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-semibold text-foreground tracking-tight mb-4">
             Integrations
           </h2>
@@ -11,10 +11,10 @@ export default function Integrations() {
           </p>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-          <div className="p-6 rounded-xl border border-slate-200 bg-white">
-            <div className="mb-4">
+          <div className="p-6 rounded-xl border border-slate-200 bg-white hover:shadow-md hover:border-slate-300 transition-all">
+            <div className="w-10 h-10 rounded-lg bg-primary/5 flex items-center justify-center text-primary mb-4">
               <svg
-                className="w-8 h-8 text-foreground"
+                className="w-6 h-6"
                 fill="none"
                 stroke="currentColor"
                 viewBox="0 0 24 24"
@@ -34,10 +34,10 @@ export default function Integrations() {
               Seamless checkout integration for WooCommerce stores. Accept cryptocurrency payments directly at checkout.
             </p>
           </div>
-          <div className="p-6 rounded-xl border border-slate-200 bg-white">
-            <div className="mb-4">
+          <div className="p-6 rounded-xl border border-slate-200 bg-white hover:shadow-md hover:border-slate-300 transition-all">
+            <div className="w-10 h-10 rounded-lg bg-primary/5 flex items-center justify-center text-primary mb-4">
               <svg
-                className="w-8 h-8 text-foreground"
+                className="w-6 h-6"
                 fill="none"
                 stroke="currentColor"
                 viewBox="0 0 24 24"
@@ -57,10 +57,10 @@ export default function Integrations() {
               Full REST API for custom integrations. Build payment flows that fit your business requirements.
             </p>
           </div>
-          <div className="p-6 rounded-xl border border-slate-200 bg-white">
-            <div className="mb-4">
+          <div className="p-6 rounded-xl border border-slate-200 bg-white hover:shadow-md hover:border-slate-300 transition-all">
+            <div className="w-10 h-10 rounded-lg bg-primary/5 flex items-center justify-center text-primary mb-4">
               <svg
-                className="w-8 h-8 text-foreground"
+                className="w-6 h-6"
                 fill="none"
                 stroke="currentColor"
                 viewBox="0 0 24 24"
