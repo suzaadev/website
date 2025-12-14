@@ -110,7 +110,7 @@ export default function Footer() {
             <ul className="space-y-3">
               <li>
                 <a
-                  href="#"
+                  href="https://docs.suzaa.com/05-legal/02-privacy-and-data"
                   className="text-white/80 hover:text-white transition-colors"
                 >
                   Privacy
@@ -118,7 +118,7 @@ export default function Footer() {
               </li>
               <li>
                 <a
-                  href="#"
+                  href="https://docs.suzaa.com/05-legal/01-terms-of-use"
                   className="text-white/80 hover:text-white transition-colors"
                 >
                   Terms
@@ -126,7 +126,7 @@ export default function Footer() {
               </li>
               <li>
                 <a
-                  href="#"
+                  href="https://docs.suzaa.com/05-legal/03-policies-and-notices"
                   className="text-white/80 hover:text-white transition-colors"
                 >
                   Compliance
@@ -139,7 +139,7 @@ export default function Footer() {
         {/* Divider */}
         <div className="border-t border-white/10 pt-8">
           <div className="text-white/80 text-sm">
-            © 2024 SUZAA. All rights reserved.
+            © 2026 SUZAA. All rights reserved.
           </div>
         </div>
       </div>

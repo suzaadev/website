@@ -14,6 +14,7 @@ export default function Pricing() {
       period: 'Limited',
       features: [
         'Up to 10 payment links',
+        'Up to 3 wallets addresses',
         'Basic support',
         'Community access',
       ],
