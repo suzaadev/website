@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  /* SUZAA Color Palette */
+  --suzaa-primary: #0a84ff;
+  --suzaa-dark-navy: #0d1b2a;
+  --suzaa-teal: #00b8a9;
+  --suzaa-ink: #111827;
+  --suzaa-slate: #6b7280;
+  --suzaa-off-white: #f9fafb;
+  --suzaa-light-gray: #e5e7eb;
+  --suzaa-green: #10b981;
+  --suzaa-yellow: #fbbf24;
+  --suzaa-red: #ef4444;
+}
+
+@layer base {
+  body {
+    @apply bg-white text-foreground;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    @apply text-foreground;
+  }
+}
+
