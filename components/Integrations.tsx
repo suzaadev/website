@@ -74,9 +74,30 @@ export default function Integrations() {
             <h3 className="text-xl font-semibold text-foreground mb-2">
               API Access
             </h3>
-            <p className="text-slate-600 leading-relaxed">
+            <p className="text-slate-600 leading-relaxed mb-4">
               Full REST API for custom integrations. Build payment flows that fit your business requirements.
             </p>
+            <a
+              href="https://docs.suzaa.com/03-developers/01-api-reference"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center text-sm text-primary hover:text-[#0970e6] transition-colors font-medium"
+            >
+              <svg
+                className="w-4 h-4 mr-1.5"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth={2}
+                  d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"
+                />
+              </svg>
+              View API Docs
+            </a>
           </div>
           <div className="p-6 rounded-xl border border-slate-200 bg-white hover:shadow-md hover:border-slate-300 transition-all">
             <div className="w-10 h-10 rounded-lg bg-primary/5 flex items-center justify-center text-primary mb-4">
