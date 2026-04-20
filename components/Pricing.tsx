@@ -23,8 +23,8 @@ export default function Pricing() {
     },
     {
       name: 'Business',
-      price: '$10',
-      period: 'month',
+      price: 'Custom',
+      period: 'Contact for pricing',
       features: [
         'Unlimited payment links',
         'Priority support',
